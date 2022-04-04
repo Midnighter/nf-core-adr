@@ -1,0 +1,5 @@
+services:
+  cli:
+    image: structurizr/cli:latest
+    volumes:
+      - ".:/usr/local/structurizr"
