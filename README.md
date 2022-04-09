@@ -1,6 +1,6 @@
 # nf-core Architecture Decisions
 
-Documentation of architectural decisions - so called [architecture decision records (ADR)](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - related to the [module](https://nf-co.re/tools/#create-a-new-module) and [pipeline](https://nf-co.re/tools/#creating-a-new-pipeline) template provided by the [nf-core tools](https://nf-co.re/tools/). ADRs should answer why certain decisions were made and the context surrounding those decision at the time.
+Documentation of architectural decisions - so called [architecture decision records (ADR)](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - related to the [module](https://nf-co.re/tools/#create-a-new-module) and [pipeline](https://nf-co.re/tools/#creating-a-new-pipeline) template provided by the [nf-core tools](https://nf-co.re/tools/). ADRs should answer why certain decisions were made and provide the context for those decisions at the time.
 
 ## Usage
 
@@ -8,7 +8,7 @@ In order to add new records, we recommend the [adr-tools](https://github.com/npr
 
 ## Contributing
 
-I'm not a member of the [nf-core team](https://nf-co.re/about#core). As such, I was neither present for most of the decision, nor do I know their context well. I'm merely trying to document them retroactively to further my own understanding and, hopefully, for the benefit of others. So, any corrections or missing decisions that you can contribute in the form of pull requests or issues about them are most welcome. You can also contact me on the [nf-core Slack](https://nf-co.re/join/slack).
+I'm not a member of the [nf-core team](https://nf-co.re/about#core). As such, I was neither present for most of the decision, nor do I know their context well. I'm merely trying to document them retroactively to further my own understanding and for the benefit of others. Hopefully, this will proove to be a valuable resource and encourage the nf-core team to document future decisions in the same manner. Any corrections or missing decisions that you can contribute in the form of pull requests or issues about them are most welcome. You can also contact me on the [nf-core Slack](https://nf-co.re/join/slack).
 
 ## Copyright
 
