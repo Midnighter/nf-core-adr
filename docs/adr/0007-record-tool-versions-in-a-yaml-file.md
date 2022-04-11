@@ -30,11 +30,20 @@ cat <<-END_VERSIONS > versions.yml
 END_VERSIONS
 ```
 
-For tools that do not provide an output of their version, this may be hardcoded to the version provided in the container image.
+For tools that do not provide an output of their version, this may be hardcoded to the version provided in the container image. Define a `VERSION` variable within the module but outside of the process definition as shown below.
 
-```bash
-cat <<-END_VERSIONS > versions.yml
-"${task.process}":
-    samtools: 1.4.1
-END_VERSIONS
+```groovy
+def VERSION = '1.4.1'
+
+process {
+    ...
+
+    script:
+    """
+    cat <<-END_VERSIONS > versions.yml
+    "${task.process}":
+        samtools: $VERSION
+    END_VERSIONS
+    """
+}
 ```
