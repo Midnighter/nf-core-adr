@@ -1,4 +1,4 @@
-# 8. Refrain from using docker userEmulation in Nextflow
+# 8. Refrain from using docker `userEmulation` in Nextflow
 
 Date: 2022-06-02
 
