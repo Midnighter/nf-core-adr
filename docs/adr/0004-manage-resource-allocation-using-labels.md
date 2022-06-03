@@ -1,6 +1,6 @@
 # 4. Manage resource allocation using labels
 
-Date: ?
+Date: 2022-01-01
 
 ## Status
 

@@ -1,6 +1,6 @@
 # 2. Input sample metadata
 
-Date: ?
+Date: 2022-01-01
 
 ## Status
 
