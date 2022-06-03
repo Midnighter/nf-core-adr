@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: structurizr-cli action
-        uses: aidmax/structurizr-cli-action@v0.2.0
+        uses: aidmax/structurizr-cli-action@v0.2.1
         with:
           id: ${{ secrets.WORKSPACE_ID }}
           key: ${{ secrets.API_KEY }}
